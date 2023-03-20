@@ -1,0 +1,113 @@
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    background-color:aqua;
+    margin: 0 400px;
+}
+#interface{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    margin: 40px 400px;
+    padding: 40px 0;
+    background-color: bisque; 
+    box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.4); 
+    
+}
+#interface:hover{
+    background-color: blue;
+}
+#img {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    }
+#compteur{
+    font-size: 100px;
+    color: aliceblue;
+}
+.btn{
+    font-size: x-large;
+    padding: 10px 20px;
+    margin: 15px;
+    border-radius: 50px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+    border: none;
+}
+#lie{
+    text-decoration: none;
+}
+#inc{
+    background-color: lime;
+}
+#dec{
+    background-color: red;
+}
+#inc:hover{
+    background-color: rgb(208, 226, 208);
+}
+#dec:hover{
+    background-color: rgb(236, 198, 198);
+}
+#form_login{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    border: 2px solid;
+    margin: 40px 350px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(0, 204, 255);
+}
+h2{
+    text-align: center;
+    color: rgb(227, 11, 11);
+}
+input[type="text"]{
+    width: 50%;
+    padding:5px 10px;
+    margin-top: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    border: none;
+    
+}
+input[type="password"]{
+    width: 50%;
+    padding:5px 10px;
+    margin-top: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    border: none;
+}
+
+
+#form_login, label{
+    padding: 20px 30px;
+    
+}
+#bt1{
+    width:20%;
+    padding: 10px 10px;
+    margin-top: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    border: none;
+   cursor: pointer;
+    
+}
+#bt1 #bt{
+    text-decoration: none;
+    color: black;
+    /* font-family:bold; */
+    
+}
+
+
+
